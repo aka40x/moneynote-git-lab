@@ -61,8 +61,8 @@ git branch hotfix/sua-loi-cong origin/hotfix/sua-loi-cong
 **Kết quả mong đợi:** đang ở nhánh `main`, cây làm việc sạch ("nothing to commit, working tree clean"), có 5 nhánh và 1 tag.
 
 ❓ **Câu 1.** Lúc mới nhận repo, nhánh `main` có bao nhiêu commit? Kể tên 4 nhánh còn lại.
-❓ **Câu 2.** Bạn Lan có bao nhiêu commit trong toàn bộ repo (gợi ý: thêm `--all`)?
-❓ **Câu 3.** Dòng có chữ `reduce` trong `js/tinh-toan.js` do ai viết, ở commit nào?
+❓ **Câu 2.** Bạn Lan có bao nhiêu commit trong toàn bộ repo (gợi ý: thêm `--all`)? "7"
+❓ **Câu 3.** Dòng có chữ `reduce` trong `js/tinh-toan.js` do ai viết, ở commit nào? "Lê Hùng"
 
 ---
 

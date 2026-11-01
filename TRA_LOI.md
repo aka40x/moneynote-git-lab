@@ -19,3 +19,7 @@ Câu 6:
 Câu 7:
     - git revert tạo một commit mới đảo ngược thay đổi của commit cũ, không viết lại lịch sử, nên an toàn với nhánh chung mà đồng đội đã kéo về: họ chỉ cần pull là nhận được bản sửa
     - git reset thì xóa commit khỏi lịch sử; nếu commit đã được push, phải force push, khiến lịch sử trên máy đồng đội bị lệch so với remote và dễ gây xung đột hoặc mất công việc của họ
+Câu 8: 
+    - reset --soft: chỉ dời con trỏ nhánh. Vùng chờ (staging) và thư mục làm việc giữ nguyên, các thay đổi của commit bị bỏ vẫn nằm trong staging, sẵn sàng commit lại.
+    - reset --mixed (mặc định): dời con trỏ và làm trống staging. Thay đổi vẫn còn trong thư mục làm việc nhưng ở trạng thái chưa add.
+    - reset --hard: dời con trỏ, làm trống staging và ghi đè thư mục làm việc. Mọi thay đổi chưa commit bị xóa. Chỉ cứu được các commit đã mất bằng git reflog, còn thay đổi chưa commit thì mất hẳn.

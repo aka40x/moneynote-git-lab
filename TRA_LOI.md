@@ -23,3 +23,5 @@ Câu 8:
     - reset --soft: chỉ dời con trỏ nhánh. Vùng chờ (staging) và thư mục làm việc giữ nguyên, các thay đổi của commit bị bỏ vẫn nằm trong staging, sẵn sàng commit lại.
     - reset --mixed (mặc định): dời con trỏ và làm trống staging. Thay đổi vẫn còn trong thư mục làm việc nhưng ở trạng thái chưa add.
     - reset --hard: dời con trỏ, làm trống staging và ghi đè thư mục làm việc. Mọi thay đổi chưa commit bị xóa. Chỉ cứu được các commit đã mất bằng git reflog, còn thay đổi chưa commit thì mất hẳn.
+Câu 9: 
+    

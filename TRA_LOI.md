@@ -29,3 +29,8 @@ Câu 9:
 Câu 10: 
     - merge: Gộp tất cả thay đổi của nhánh
     - cherry-pick: Chỉ lấy commit được chỉ định
+Câu 11: 
+    - Không. Sau khi rebase, commit sẽ có mã SHA mới vì Git tạo lại commit với lịch sử cha mới, dù nội dung thay đổi có thể giống commit cũ
+    - Vì rebase làm thay đổi lịch sử commit (tạo mã commit mới). Điều này khiến lịch sử giữa máy của bạn và người khác không còn đồng nhất, dễ gây xung đột và khó đồng bộ khi push/pull
+Câu 12: 
+    - fetch chỉ tải về, pull tải về và cập nhật code

@@ -1,1 +1,1 @@
-tôi đẹp tra
+tôi đẹp trai

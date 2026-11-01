@@ -24,4 +24,8 @@ Câu 8:
     - reset --mixed (mặc định): dời con trỏ và làm trống staging. Thay đổi vẫn còn trong thư mục làm việc nhưng ở trạng thái chưa add.
     - reset --hard: dời con trỏ, làm trống staging và ghi đè thư mục làm việc. Mọi thay đổi chưa commit bị xóa. Chỉ cứu được các commit đã mất bằng git reflog, còn thay đổi chưa commit thì mất hẳn.
 Câu 9: 
-    
+    Commit gây lỗi là df17ab7, thông điệp “Thêm bộ lọc thu/chi”, tác giả Lê Hùng
+    Trong js/tinh-toan.js, hàm tinhTong dùng reduce với giá trị khởi tạo là chuỗi rỗng '' thay vì 0. Khi đó '' + 5000000 cho ra chuỗi, nên các số bị nối chuỗi thay vì cộng, tổng thu thành “10000050000”
+Câu 10: 
+    - merge: Gộp tất cả thay đổi của nhánh
+    - cherry-pick: Chỉ lấy commit được chỉ định

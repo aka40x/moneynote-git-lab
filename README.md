@@ -20,3 +20,11 @@ kiem-tra.js       Kiểm tra nhanh hàm tính tổng: node kiem-tra.js
 - Trần Lan
 - Lê Hùng
 - Trịnh Hoàng
+
+## Cách kiểm tra
+
+Chạy lệnh sau để kiểm tra các hàm tính toán:
+
+    node kiem-tra.js
+
+Kết quả đúng là in ra ĐẠT.
